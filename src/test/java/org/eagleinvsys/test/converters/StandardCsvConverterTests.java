@@ -1,6 +1,5 @@
 package org.eagleinvsys.test.converters;
 
-import org.eagleinvsys.test.converters.impl.ConvertibleCollectionImpl;
 import org.eagleinvsys.test.converters.impl.CsvConverter;
 import org.eagleinvsys.test.converters.impl.StandardCsvConverter;
 import org.junit.Assert;

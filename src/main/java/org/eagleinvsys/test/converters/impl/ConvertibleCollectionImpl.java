@@ -3,7 +3,10 @@ package org.eagleinvsys.test.converters.impl;
 import org.eagleinvsys.test.converters.ConvertibleCollection;
 import org.eagleinvsys.test.converters.ConvertibleMessage;
 
-import java.util.*;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 public class ConvertibleCollectionImpl implements ConvertibleCollection {

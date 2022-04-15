@@ -8,7 +8,8 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Iterator;
 
-import static org.eagleinvsys.test.converters.constants.MyConstants.*;
+import static org.eagleinvsys.test.converters.constants.MyConstants.END;
+import static org.eagleinvsys.test.converters.constants.MyConstants.SEP;
 import static org.eagleinvsys.test.converters.utils.MyUtils.escapeSpecialCharacters;
 
 public class CsvConverter implements Converter {

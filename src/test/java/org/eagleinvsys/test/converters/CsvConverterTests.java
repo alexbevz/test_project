@@ -5,7 +5,8 @@ import org.eagleinvsys.test.converters.impl.CsvConverter;
 import org.junit.Assert;
 import org.junit.Test;
 
-import java.io.*;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -70,6 +71,7 @@ public class CsvConverterTests {
 
         Assert.assertArrayEquals(expected, result);
     }
+
     @Test
     public void convertTestWhenMatrix2x2() throws IOException {
         byte[] expected = "key1,key2\nval1,val2\nval3,val4".getBytes();

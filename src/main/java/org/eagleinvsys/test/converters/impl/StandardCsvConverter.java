@@ -1,12 +1,12 @@
 package org.eagleinvsys.test.converters.impl;
 
-import org.eagleinvsys.test.converters.ConvertibleMessage;
 import org.eagleinvsys.test.converters.StandardConverter;
 
 import java.io.IOException;
-import java.io.NotSerializableException;
 import java.io.OutputStream;
-import java.util.*;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 public class StandardCsvConverter implements StandardConverter {
