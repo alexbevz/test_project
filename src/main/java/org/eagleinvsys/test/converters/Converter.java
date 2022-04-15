@@ -1,5 +1,6 @@
 package org.eagleinvsys.test.converters;
 
+import java.io.IOException;
 import java.io.OutputStream;
 
 public interface Converter {
@@ -10,6 +11,6 @@ public interface Converter {
      * @param collectionToConvert collection to convert
      * @param outputStream        output stream to write results to
      */
-    void convert(ConvertibleCollection collectionToConvert, OutputStream outputStream);
+    void convert(ConvertibleCollection collectionToConvert, OutputStream outputStream) throws IOException;
 
 }
